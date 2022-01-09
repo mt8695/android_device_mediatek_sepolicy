@@ -26,3 +26,5 @@ genfscon sysfs /devices/platform/mt_charger/power_supply/charger/wakeup         
 genfscon sysfs /devices/platform/fingerprint/wakeup/wakeup                                                  u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/11016000.i2c5/i2c-5/5-0034/wakeup/wakeup                                   u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/11201000.mtu3_0/wakeup/wakeup                                              u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11004000.i2c7/i2c-7/7-0055/power_supply/parallel/wakeup18                  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11004000.i2c7/i2c-7/7-0055/power_supply/parallel/wakeup18/event_count      u:object_r:sysfs_wakeup:s0
